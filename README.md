@@ -1,7 +1,7 @@
 # Python_Intermediate
 
 
-# 1. Create a diabetes.py module (30 marks)
+#1. Create a diabetes.py module (30 marks)
 
 Create a module called diabetes.py. In the module, create a function called generate_summary_for_web(csvfile, html_title, html_filename, show_barchart_gender=True) thatreadsspecificcsvfilesrelatedtodiabetes. These csv files will have the same column header, same number of columns, and in the same order. All columns in the csv files are attributes except the last column which is the class, either Positive of Negative.
 The csvfile is the full name with extension of the csv file to be used (e.g., “diabetes_data.csv”). The html_title is a string for the title (<title> tag) of the html file specified by html_filename (e.g., “summary.html”). You can also use the same html_title as the heading at the beginning of the html page.
